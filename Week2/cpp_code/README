@@ -1,0 +1,10 @@
+CDF:
+
+- modifica stats.cpp e stats.h in modo da calcolare la variamza a blocchi per l'esercizio 2.1 (RW3d)
+- ricordati di modificare il main (metodi di salvataggio modificati)
+- MO per esercizio 2.1:
+	- cicli sulle ripetizioni dei RW3d
+	- calcoli il singolo RW3d e calcoli la deviazione standard a blocchi con il nuovo metodo
+	- salva sia la dev. a blocchi che i loro quadrati (delle dev. a passo fissato) in un vettore (i secondi per il calcolo dell'errore)
+	- itera, e media (somma) i vettori ottenuti
+	- alla fine calcola media totale ed errore statistico

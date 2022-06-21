@@ -1,0 +1,25 @@
+0
+1
+1.2
+108
+0.05
+5.0
+0.0005
+100
+2000
+0
+MD_simulation
+gas
+
+  ReadInput >> iNVET; 0=MD(NVE) 1=MC(NVT)
+  ReadInput >> restart;
+  ReadInput >> temp;
+  ReadInput >> npart;
+  ReadInput >> rho;
+  ReadInput >> rcut;
+  ReadInput >> delta;
+  ReadInput >> nblk;
+  ReadInput >> nstep;
+  ReadInput >> save;
+  ReadInput >> dir;
+  ReadInput >> state;

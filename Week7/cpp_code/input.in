@@ -1,0 +1,35 @@
+1
+0
+0
+1.2
+108
+0.05
+5.0
+0.2
+100
+5000
+10000
+5000
+0.05
+100
+0
+gas
+multi_step
+
+  ReadInput >> iNVET; 0=MD(NVE) 1=MC(NVT) (1)
+  ReadInput >> verbose;  (2)
+  ReadInput >> restart;  (3)  
+  ReadInput >> temp;  (4)
+  ReadInput >> npart;  (5)
+  ReadInput >> rho;  (6)
+  ReadInput >> rcut;  (7)
+  ReadInput >> delta;  (8)
+  ReadInput >> nblk;  (9)
+  ReadInput >> nstep;  (10)
+  ReadInput >> MD_eqsteps;  (11)
+  ReadInput >> MC_eqsteps;  (12)
+  ReadInput >> prec;  (13)
+  ReadInput >> r_bins;  (14)
+  ReadInput >> save;  (15)
+  ReadInput >> state;  (16)
+  ReadInput >> dir;  (17)

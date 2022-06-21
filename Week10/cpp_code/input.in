@@ -1,0 +1,33 @@
+1
+0
+20000
+34
+100
+10
+0.1
+0.7
+0.1
+0.05
+0.05
+0.05
+geometrical
+0
+1
+data
+
+    ReadInput >> verbose;
+    ReadInput >> restart;
+    ReadInput >> nchromo;
+    ReadInput >> ncities;
+    ReadInput >> ngen;
+    ReadInput >> nmigr;
+    ReadInput >> exchange_fract;
+    ReadInput >> pc;
+    ReadInput >> pm_1;
+    ReadInput >> pm_2;
+    ReadInput >> pm_3;
+    ReadInput >> pm_4;
+    ReadInput >> city_type;
+    ReadInput >> circle;
+    ReadInput >> square;
+    ReadInput >> dir;
